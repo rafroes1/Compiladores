@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.*;
 
 public class LexicalAnalyzer {
+	//ASSET COMMANDLINE IS CASE SENSITIVE
+	
 	static Set<String> reservedWord = new HashSet<String>();
 	static Set<String> alphabet = new HashSet<String>();
 	static Set<String> comparativeSignal = new HashSet<String>();
